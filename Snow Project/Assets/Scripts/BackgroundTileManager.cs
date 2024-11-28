@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
 
-public class GroundTileManager : MonoBehaviour
+public class BackgroundTileManager : MonoBehaviour
 {
     public GameObject groundTilePrefab; // Prefab for ground tiles
     public Transform player; // Reference to the player
