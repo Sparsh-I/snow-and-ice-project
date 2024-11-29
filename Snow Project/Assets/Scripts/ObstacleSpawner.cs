@@ -5,15 +5,18 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] private GameObject[] obstacles;
     [SerializeField] private float obstacleSpawnRate;
     private float obstacleSpawnTimer;
-    [SerializeField] private float obstacleSpeed;
+    [SerializeField] private float obstacleSpeed = 20f;
     
-    private float[] possibleRotations = { 0f, 45f, 90f, 135f };
+    private float[] possibleRotations = { 0f, 45f, 90f, 135f, };
     
     // Update is called once per frame
     void Update()
     {
         if (GameManager.Instance.isPlaying)
+        {
             SpawnLoop();
+            obstacleSpeed += 0.001f;
+        }
     }
 
     private void SpawnLoop()
@@ -28,7 +31,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void Spawn()
     {
-        float spawnY = Random.Range(-6.5f, 6.5f);
+        float spawnY = Random.Range(-8.0f, 8.0f);
         float randomRotation = possibleRotations[Random.Range(0, possibleRotations.Length)];
         Quaternion spawnRotation = Quaternion.Euler(0f, 0f, randomRotation);
         
