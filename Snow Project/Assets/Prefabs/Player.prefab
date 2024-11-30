@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fixedXPosition: -14
-  jumpForce: 0.5
+  jumpForce: 1
   rotationSpeed: 0
   returnSpeed: 5
   isGrounded: 0
