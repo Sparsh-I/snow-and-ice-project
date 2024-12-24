@@ -1,21 +1,29 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] obstacles;
+    [SerializeField] private Transform obstacleParent;
     [SerializeField] private float obstacleSpawnRate;
     private float obstacleSpawnTimer;
     [SerializeField] private float obstacleSpeed = 20f;
     
     private float[] possibleRotations = { 0f, 45f, 90f, 135f, };
-    
+
+    private void Start()
+    {
+        GameManager.Instance.onGameOver.AddListener(ClearObstacles);
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (GameManager.Instance.isPlaying)
         {
             SpawnLoop();
-            obstacleSpeed += 0.001f;
+            obstacleSpeed += 0.005f;
         }
     }
 
@@ -40,7 +48,15 @@ public class ObstacleSpawner : MonoBehaviour
         Vector3 spawnPosition = new Vector3(transform.position.x, spawnY,0);
         GameObject spawnedObstacle = Instantiate(obstacle, spawnPosition, spawnRotation);
         
+        spawnedObstacle.transform.parent = obstacleParent;
+        
         Rigidbody2D rb = spawnedObstacle.GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.left * obstacleSpeed;
+    }
+    
+    public void ClearObstacles()
+    {
+        foreach (Transform child in obstacleParent)
+            Destroy(child.gameObject);
     }
 }
