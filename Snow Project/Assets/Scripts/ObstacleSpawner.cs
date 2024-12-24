@@ -23,7 +23,7 @@ public class ObstacleSpawner : MonoBehaviour
         if (GameManager.Instance.isPlaying)
         {
             SpawnLoop();
-            obstacleSpeed += 0.005f;
+            obstacleSpeed += 0.002f;
         }
     }
 
