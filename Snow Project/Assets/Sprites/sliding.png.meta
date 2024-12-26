@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 508e709121125d84dafc3ea7b2ac2189
+guid: 997fc5fe22447f641817cdc58626c28d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,6 +101,111 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be34abd3797f22a41b399c6c816fd533
+      internalID: 1756015757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliding_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb453bcae1954274ab945adb7cfcbed8
+      internalID: 42695724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliding_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df21b5b59ccd02d42862f8478aa598e6
+      internalID: -346069502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliding_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bda8969f0916ba43899b14b8b814170
+      internalID: 1656485575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliding_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc61e554bcbdb024cacbd8e28a10bd2f
+      internalID: 1947413276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliding_5
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 256
         height: 256
@@ -111,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c75b36bab70c6b4d8b3ad525975f9eb
-      internalID: -1660779858
+      spriteID: 0d28f0c6af9c56f44b9c51deafa4471c
+      internalID: -878682844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sliding_1
+      name: sliding_6
       rect:
         serializedVersion: 2
         x: 256
@@ -132,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bd3d1ccd7eb29c48a5633e30ba86d90
-      internalID: 1409279993
+      spriteID: 3a882f2258987504db3b41729cc34f2c
+      internalID: -625103118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sliding_2
+      name: sliding_7
       rect:
         serializedVersion: 2
         x: 512
@@ -153,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9cc6922622f47a4da85804b388dfe60
-      internalID: -534926869
+      spriteID: 4031b8d5a62590a4cb3b41fef5959bbc
+      internalID: -236846739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sliding_3
+      name: sliding_8
       rect:
         serializedVersion: 2
         x: 768
@@ -174,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f72a1d769a47f8748860fac208e830c9
-      internalID: -1397868078
+      spriteID: 5165953f2a3d598439aa035a174fa640
+      internalID: -732192059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sliding_4
+      name: sliding_9
       rect:
         serializedVersion: 2
         x: 1024
@@ -195,113 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d80b49d2a9f754843bf020d7e9712813
-      internalID: -2117773622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_5
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da58890e8b3570c4f9f5225f44c363e5
-      internalID: -1399737090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_6
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c54138b7e86c9a40b093a2e560c19c8
-      internalID: -1339718928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_7
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54511e0ed45cf6b4abaacf619fb14c84
-      internalID: 1178621399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_8
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5ccdfb41fa660e45a803db4299dd32d
-      internalID: 132072193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_9
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 971f51dd5a4f3d540a931d111711217b
-      internalID: -1962653615
+      spriteID: 05e1d4438c1f0334487d3a97f7bca94b
+      internalID: 1656734003
       vertices: []
       indices: 
       edges: []
@@ -317,16 +317,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sliding_0: -1660779858
-      sliding_1: 1409279993
-      sliding_2: -534926869
-      sliding_3: -1397868078
-      sliding_4: -2117773622
-      sliding_5: -1399737090
-      sliding_6: -1339718928
-      sliding_7: 1178621399
-      sliding_8: 132072193
-      sliding_9: -1962653615
+      sliding_0: 1756015757
+      sliding_1: 42695724
+      sliding_2: -346069502
+      sliding_3: 1656485575
+      sliding_4: 1947413276
+      sliding_5: -878682844
+      sliding_6: -625103118
+      sliding_7: -236846739
+      sliding_8: -732192059
+      sliding_9: 1656734003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

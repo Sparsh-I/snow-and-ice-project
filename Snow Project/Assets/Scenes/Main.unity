@@ -1379,38 +1379,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_Size.x
-      value: 68.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_Size.y
-      value: 88.1339
-      objectReference: {fileID: 0}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1660779858, guid: 508e709121125d84dafc3ea7b2ac2189, type: 3}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2219387283093413139, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6165360350111874512, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
@@ -1424,12 +1392,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
+      propertyPath: m_Size.x
+      value: 2.5500736
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
+      propertyPath: m_Size.y
+      value: 2.5537977
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00687027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.00075149536
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 68.08
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 88.1339
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -1437,7 +1421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6962332009965521656, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.5625
+      value: 2.56
       objectReference: {fileID: 0}
     - target: {fileID: 6973983907236422361, guid: 1426088f603ccaf44aca5903fed034af, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2055,11 +2039,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 984143808754805996, guid: e589fd29a4ff8cd4da66efddd04d512b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 984143808754805996, guid: e589fd29a4ff8cd4da66efddd04d512b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.7
+      value: 11.01
       objectReference: {fileID: 0}
     - target: {fileID: 984143808754805996, guid: e589fd29a4ff8cd4da66efddd04d512b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2076,10 +2060,6 @@ PrefabInstance:
     - target: {fileID: 6944414271007883799, guid: e589fd29a4ff8cd4da66efddd04d512b, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile
-      objectReference: {fileID: 0}
-    - target: {fileID: 7847172037193167445, guid: e589fd29a4ff8cd4da66efddd04d512b, type: 3}
-      propertyPath: m_Color.a
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7847172037193167445, guid: e589fd29a4ff8cd4da66efddd04d512b, type: 3}
       propertyPath: m_SortingLayer
