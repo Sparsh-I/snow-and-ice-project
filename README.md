@@ -24,7 +24,6 @@ An endless auto-runner where you play as a sentient ice block sliding through an
 - Obstacles and hazards fly through the air at increasing speeds as the game progresses.
 - Endless Gameplay: The ship is procedurally generated as you progress, keeping each run fresh.
 
-![image](https://github.com/user-attachments/assets/63ff032c-69c2-43e6-94e3-42acc9105f84)
 ![image](https://github.com/user-attachments/assets/fe70c75d-49df-455a-9b2f-a3ccf812ee18)
 
 
