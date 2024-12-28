@@ -17,19 +17,16 @@ An endless auto-runner where you play as a sentient ice block sliding through an
 ## **About the Game**  
 *Cosmic Slide* is a fast-paced endless auto-runner with a unique twist: you’re an ice block. Navigate through a derelict spaceship drifting in space, avoid hazards that can melt or shatter you, and collect space crystals to rack up points. 
 
-### **Why it’s unique**:  
-- A quirky protagonist: a sentient ice block with personality.  
+![title_page](https://github.com/user-attachments/assets/6c12a074-d188-42b7-86f0-f45010978fce)
+
+### **Features**:
 - Dynamic environments inspired by sci-fi aesthetics.  
-- Themed hazards like heat vents, lasers, and zero-gravity traps.
+- Obstacles and hazards fly through the air at increasing speeds as the game progresses.
+- Endless Gameplay: The ship is procedurally generated as you progress, keeping each run fresh.
 
----
+![image](https://github.com/user-attachments/assets/63ff032c-69c2-43e6-94e3-42acc9105f84)
+![image](https://github.com/user-attachments/assets/fe70c75d-49df-455a-9b2f-a3ccf812ee18)
 
-## **Features**  
-- **Endless Gameplay**: The ship procedurally generates as you progress, keeping each run fresh.  
-- **Dynamic Obstacles**: Heat rays, spinning blades, gravity wells, and more.  
-- **Power-ups**: Collect items to temporarily shield yourself, slow down time, or replenish your icy mass.  
-- **Leaderboards**: Compete with friends and players globally for the highest score.  
-- **Customization**: Unlock skins for your ice block by reaching milestones.  
 
 ---
 
@@ -93,5 +90,6 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN C
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
