@@ -53,15 +53,15 @@ An endless auto-runner where you play as a sentient ice block sliding through an
 
 ## **Development**  
 Developed using Unity Game Engine.
-Recommended Unity version: 2022.3.35f1.
-Assets created in Illustrator/LibreSprite.
-Physics and procedural generation algorithms customized for endless gameplay.
+- Recommended Unity version: 2022.3.35f1.
+- Assets created in Illustrator/LibreSprite.
+- Physics and procedural generation algorithms customized for endless gameplay.
 
 ---
 
 ## **Credits**
-Game Design & Programming: [Sparsh Inanda]
-Art & Assets: [Adobe Illustrator, LibreSprite]
+- Game Design & Programming: [Sparsh Inanda]
+- Art & Assets: [Adobe Illustrator, LibreSprite]
 
 --- 
 
